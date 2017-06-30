@@ -1,6 +1,3 @@
-checkout:
-   post:
-        - cp -r licenses/. $ANDROID_HOME/licenses
 dependencies:
   pre:
     # Android SDK Platform 25
