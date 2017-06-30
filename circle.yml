@@ -15,3 +15,8 @@ dependencies:
     - /usr/local/android-sdk-linux/platforms/android-25
     - /usr/local/android-sdk-linux/build-tools/25.0.0
     - /usr/local/android-sdk-linux/extras/android/m2repository
+
+test:
+    override:
+        - (./gradlew assemble):
+            timeout: 360
